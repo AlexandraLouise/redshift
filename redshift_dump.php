@@ -1,7 +1,7 @@
 <?php
 
 class redshift_dump
-{}
+{
 
 
     public function __construct()
@@ -9,9 +9,6 @@ class redshift_dump
         $this->copyData();
         
     }
-
-
-
 
     private function copyData()
     {
